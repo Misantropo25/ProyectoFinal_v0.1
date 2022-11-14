@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="31ce1fd88022479fb6c1f01f12218286" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="DB_PPPModel.Empresa" Width="1.5" PointX="5.5" PointY="1.875" />
+        <EntityTypeShape EntityType="DB_PPPModel.Informe" Width="1.5" PointX="5" PointY="5.125" />
+        <EntityTypeShape EntityType="DB_PPPModel.Usuario" Width="1.5" PointX="2.375" PointY="2.75" />
+        <AssociationConnector Association="DB_PPPModel.FK__Empresa__CodUsua__7E37BEF6" />
+        <AssociationConnector Association="DB_PPPModel.FK__Informe__CodUsua__01142BA1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
